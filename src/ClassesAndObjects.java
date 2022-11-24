@@ -10,7 +10,7 @@ public class ClassesAndObjects {
 }
 
 class Person{
-    String name;                    // при смене имени данного поля придется переименовывать
+    String name;                    // при смене имени данного поля придется переименовывать строку 7
     int age;
 
     int calculateYearsToRetirement(){
@@ -18,6 +18,7 @@ class Person{
         return years;
     }
     void speak(){
-        for(int i = 0; i<3; i++);
+        for(int i = 0; i<3; i++);{
+        System.out.println("Меня зовут "+ name+ ", мне "+age+" лет");}
     }
 }
